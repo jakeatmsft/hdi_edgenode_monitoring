@@ -1,9 +1,8 @@
-oms-agent.sh: 
-The script takes 2 parameters: <OMS workspace ID> <OMS primary key>
- <OMS workspace ID> is passed by user inputs
- <OMS primary key> is passed by user inputs
+#!/bin/bash -x
 
-Script:
+# The script takes 2 parameters: <OMS workspace ID> <OMS primary key>
+# <OMS workspace ID> is passed by user inputs
+# <OMS primary key> is passed by user inputs
 
 if [ $# != 2];
 then
