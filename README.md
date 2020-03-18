@@ -1,9 +1,8 @@
 oms-agent.sh: 
-The script takes 3 parameters: <OMS workspace ID> <OMS primary key> <storage location>
- The script takes 3 parameters: <OMS workspace ID> <OMS primary key> <storagelocation>
- <OMS workspace ID> is passed by user inputs
- <OMS primary key> is passed by user inputs
- <storagelocation> storage location of install scripts
+The script takes 3 parameters: OMS workspace ID OMS primary key storage location
+ - OMS workspace ID  is passed by user inputs
+ - OMS primary key is passed by user inputs
+ - storagelocation storage location of install scripts
 
 if [ $# != 3];
 then
