@@ -17,7 +17,7 @@ sudo su omsagent -c 'python /opt/microsoft/omsconfig/Scripts/PerformRequiredConf
 
 
 
-### Steps
-## Copy linux agents from to install folder in storage directory:
-## https://github.com/Microsoft/OMS-Agent-for-Linux/releases/
-## ensure that the names of the release scripts match in the onboard_agent.sh script lines:12-13
+## Steps
+### Copy linux agents from to install folder in storage directory:
+### https://github.com/Microsoft/OMS-Agent-for-Linux/releases/
+### ensure that the names of the release scripts match in the onboard_agent.sh script lines:12-13
